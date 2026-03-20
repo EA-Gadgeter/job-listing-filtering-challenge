@@ -1,7 +1,15 @@
+import styles from "./Header.module.css"
+
 export const Header = () => {
   return (
-    <header>
-      <img src="/bg-header-mobile.svg" />
+    <header
+      className={styles.header}
+    >
+      <img
+        alt="Background Image"
+        src="/bg-header-mobile.svg"
+        className={styles.bg_image}
+      />
     </header>
   );
 };

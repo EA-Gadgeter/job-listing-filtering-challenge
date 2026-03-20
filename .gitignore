@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Files for AI
+AGENTS.md
+INSTRUCTIONS.md

@@ -1,0 +1,9 @@
+.header {
+  background-color: var(--green-400);
+}
+
+.bg_image {
+  max-width: 100%;
+
+  display: block;
+}
