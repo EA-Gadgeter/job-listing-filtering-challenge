@@ -12,3 +12,12 @@
   margin-top: 6rem;
   padding: 0;
 }
+
+@media (min-width: 768px) {
+  .jobList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 327px);
+    justify-content: center;
+    gap: 4.75rem 3rem;
+  }
+}
